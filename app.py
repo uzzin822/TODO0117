@@ -4,7 +4,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-# MySQL 연결 설정
+# MySQL 연결 설정(replay)
 db_config = {
     'host': '10.0.66.14',
     'user': 'sejong',
